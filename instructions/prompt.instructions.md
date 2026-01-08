@@ -22,7 +22,7 @@ Every prompt file should include YAML frontmatter with the following fields:
 |-------|----------|-------------|
 | `description` | Recommended | A short description of the prompt (single sentence, actionable outcome) |
 | `name` | Optional | The name shown after typing `/` in chat. Defaults to filename if not specified |
-| `agent` | Recommended | The agent to use: `ask`, `edit`, `agent`, or a custom agent name. Defaults to current agent |
+| `agent` | Recommended | The agent to use: `ask`, `edit`, `agent`, or a custom agent name. Defaults to the current agent |
 | `model` | Optional | The language model to use. Defaults to currently selected model |
 | `tools` | Optional | List of tool/tool set names available for this prompt |
 | `argument-hint` | Optional | Hint text shown in chat input to guide user interaction |
